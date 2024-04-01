@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<String> queryList = new ArrayList<>(Arrays.asList("plumber"));
+        ArrayList<String> queryList = new ArrayList<>(Arrays.asList("team member"));
         Page page = new Page();
         Page.locationName = "Calgary";
         Page.selectDays = "Last 3 days";

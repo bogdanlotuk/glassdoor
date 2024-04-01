@@ -104,7 +104,7 @@ public class Page {
             Job job = new Job(jobTitleName, jobCompanyName, Page.jobName, jobLocation, jobText, link);
             jobsWithUrl.add(job);
             System.out.println(jobTitleName);
-            sleep(2000);
+            sleep(10000);
         }
     }
 
